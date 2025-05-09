@@ -18,8 +18,8 @@ const Footer: React.FC = () => {
           <div className="col-span-1">
             <h3 className="text-xl font-bold mb-4">PetPals</h3>
             <p className="text-gray-300 mb-4">
-              Your one-stop destination for all pet needs. Quality products and
-              premium services for your furry friends.
+              Seu destino único para todas as necessidades de pets. Produtos de
+              qualidade e serviços premium para seus amigos peludos.
             </p>
             <div className="flex space-x-4">
               {/* Links para redes sociais */}
@@ -46,7 +46,7 @@ const Footer: React.FC = () => {
 
           {/* Links Rápidos */}
           <div className="col-span-1">
-            <h3 className="text-lg font-semibold mb-4">Quick Links</h3>
+            <h3 className="text-lg font-semibold mb-4">Links Rápidos</h3>
             <ul className="space-y-2">
               {/* Navegação para páginas principais */}
               <li>
@@ -54,7 +54,7 @@ const Footer: React.FC = () => {
                   to="/"
                   className="text-gray-300 hover:text-teal-400 transition-colors"
                 >
-                  Home
+                  Início
                 </Link>
               </li>
               <li>
@@ -62,7 +62,7 @@ const Footer: React.FC = () => {
                   to="/products"
                   className="text-gray-300 hover:text-teal-400 transition-colors"
                 >
-                  Products
+                  Produtos
                 </Link>
               </li>
               <li>
@@ -70,7 +70,7 @@ const Footer: React.FC = () => {
                   to="/services"
                   className="text-gray-300 hover:text-teal-400 transition-colors"
                 >
-                  Services
+                  Serviços
                 </Link>
               </li>
               <li>
@@ -78,7 +78,7 @@ const Footer: React.FC = () => {
                   to="/about"
                   className="text-gray-300 hover:text-teal-400 transition-colors"
                 >
-                  About Us
+                  Sobre Nós
                 </Link>
               </li>
               <li>
@@ -86,7 +86,7 @@ const Footer: React.FC = () => {
                   to="/contact"
                   className="text-gray-300 hover:text-teal-400 transition-colors"
                 >
-                  Contact
+                  Contato
                 </Link>
               </li>
             </ul>
@@ -94,7 +94,7 @@ const Footer: React.FC = () => {
 
           {/* Serviços Oferecidos */}
           <div className="col-span-1">
-            <h3 className="text-lg font-semibold mb-4">Our Services</h3>
+            <h3 className="text-lg font-semibold mb-4">Nossos Serviços</h3>
             <ul className="space-y-2">
               {/* Navegação para serviços */}
               <li>
@@ -102,7 +102,7 @@ const Footer: React.FC = () => {
                   to="/services"
                   className="text-gray-300 hover:text-teal-400 transition-colors"
                 >
-                  Pet Grooming
+                  Banho e Tosa
                 </Link>
               </li>
               <li>
@@ -110,7 +110,7 @@ const Footer: React.FC = () => {
                   to="/services"
                   className="text-gray-300 hover:text-teal-400 transition-colors"
                 >
-                  Veterinary Care
+                  Cuidados Veterinários
                 </Link>
               </li>
               <li>
@@ -118,7 +118,7 @@ const Footer: React.FC = () => {
                   to="/services"
                   className="text-gray-300 hover:text-teal-400 transition-colors"
                 >
-                  Pet Training
+                  Treinamento de Pets
                 </Link>
               </li>
               <li>
@@ -126,7 +126,7 @@ const Footer: React.FC = () => {
                   to="/services"
                   className="text-gray-300 hover:text-teal-400 transition-colors"
                 >
-                  Pet Boarding
+                  Hospedagem de Pets
                 </Link>
               </li>
               <li>
@@ -134,7 +134,7 @@ const Footer: React.FC = () => {
                   to="/services"
                   className="text-gray-300 hover:text-teal-400 transition-colors"
                 >
-                  Pet Dental Care
+                  Cuidados Dentários para Pets
                 </Link>
               </li>
             </ul>

@@ -1,75 +1,86 @@
-import { Product } from '../types';
+import { Product } from "../types";
 
 export const products: Product[] = [
   {
     id: 1,
-    name: 'Premium Dog Food',
-    description: 'High-quality dog food with all essential nutrients for your furry friend.',
+    name: "Ração Premium para Cachorros",
+    description:
+      "Ração de alta qualidade com todos os nutrientes essenciais para o seu amigo peludo. Pacote de 3kg.",
     price: 39.99,
-    imageUrl: 'https://images.pexels.com/photos/6568501/pexels-photo-6568501.jpeg?auto=compress&cs=tinysrgb&w=800',
-    category: 'food'
+    imageUrl:
+      "https://images.pexels.com/photos/8434635/pexels-photo-8434635.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    category: "comida",
   },
   {
     id: 2,
-    name: 'Cat Scratching Post',
-    description: 'Durable scratching post to keep your cat entertained and your furniture safe.',
+    name: "Arranhador para Gatos",
+    description:
+      "Arranhador durável para manter seu gato entretido e seus móveis protegidos.",
     price: 29.99,
-    imageUrl: 'https://images.pexels.com/photos/6957506/pexels-photo-6957506.jpeg?auto=compress&cs=tinysrgb&w=800',
-    category: 'toys'
+    imageUrl:
+      "https://images.pexels.com/photos/1170986/pexels-photo-1170986.jpeg?auto=compress&cs=tinysrgb&w=800",
+    category: "brinquedos",
   },
   {
     id: 3,
-    name: 'Dog Chew Toy',
-    description: 'Tough and durable chew toy for hours of fun.',
+    name: "Brinquedo de Mastigar para Cachorros",
+    description: "Brinquedo resistente e durável para horas de diversão.",
     price: 12.99,
-    imageUrl: 'https://images.pexels.com/photos/6343786/pexels-photo-6343786.jpeg?auto=compress&cs=tinysrgb&w=800',
-    category: 'toys'
+    imageUrl:
+      "https://images.pexels.com/photos/14084428/pexels-photo-14084428.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    category: "brinquedos",
   },
   {
     id: 4,
-    name: 'Premium Cat Food',
-    description: 'Nutritious cat food made with real ingredients.',
+    name: "Ração Premium para Gatos",
+    description: "Ração nutritiva feita com ingredientes reais. Pacote de 2kg.",
     price: 34.99,
-    imageUrl: 'https://images.pexels.com/photos/6568661/pexels-photo-6568661.jpeg?auto=compress&cs=tinysrgb&w=800',
-    category: 'food'
+    imageUrl:
+      "https://images.pexels.com/photos/9013079/pexels-photo-9013079.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    category: "comida",
   },
   {
     id: 5,
-    name: 'Pet Carrier',
-    description: 'Comfortable and secure carrier for transporting your pet.',
+    name: "Transportador para Animais",
+    description: "Transportador confortável e seguro para levar seu pet.",
     price: 49.99,
-    imageUrl: 'https://images.pexels.com/photos/5731866/pexels-photo-5731866.jpeg?auto=compress&cs=tinysrgb&w=800',
-    category: 'accessories'
+    imageUrl:
+      "https://images.pexels.com/photos/241521/pexels-photo-241521.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    category: "acessórios",
   },
   {
     id: 6,
-    name: 'Dog Collar',
-    description: 'Stylish and comfortable collar for your dog.',
+    name: "Coleira para Cachorros",
+    description: "Coleira estilosa e confortável para o seu cachorro.",
     price: 18.99,
-    imageUrl: 'https://images.pexels.com/photos/3687770/pexels-photo-3687770.jpeg?auto=compress&cs=tinysrgb&w=800',
-    category: 'accessories'
+    imageUrl:
+      "https://images.pexels.com/photos/6537922/pexels-photo-6537922.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    category: "acessórios",
   },
   {
     id: 7,
-    name: 'Small Animal Bedding',
-    description: 'Soft and absorbent bedding for small pets.',
+    name: "Cama para Pequenos Animais",
+    description: "Cama macia e absorvente para pequenos pets.",
     price: 15.99,
-    imageUrl: 'https://images.pexels.com/photos/6957589/pexels-photo-6957589.jpeg?auto=compress&cs=tinysrgb&w=800',
-    category: 'accessories'
+    imageUrl:
+      "https://images.pexels.com/photos/64284/cat-kitten-siamese-cat-cozy-64284.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    category: "acessórios",
   },
   {
     id: 8,
-    name: 'Fish Food',
-    description: 'Balanced nutrition for freshwater and saltwater fish.',
+    name: "Ração para Peixes",
+    description:
+      "Nutrição balanceada para peixes de água doce e salgada. Pacote de 200g.",
     price: 8.99,
-    imageUrl: 'https://images.pexels.com/photos/6957591/pexels-photo-6957591.jpeg?auto=compress&cs=tinysrgb&w=800',
-    category: 'food'
-  }
+    imageUrl:
+      "https://images.pexels.com/photos/128756/pexels-photo-128756.jpeg?auto=compress&cs=tinysrgb&w=800",
+    category: "comida",
+  },
 ];
 
 export const categories = [
-  { id: 'all', name: 'All Products' },
-  { id: 'food', name: 'Food' },
-  { id: 'toys', name: 'Toys' },
-  { id: 'accessories', name: 'Accessories' }
+  { id: "all", name: "Todos os Produtos" },
+  { id: "comida", name: "Comida" },
+  { id: "brinquedos", name: "Brinquedos" },
+  { id: "acessórios", name: "Acessórios" },
 ];
