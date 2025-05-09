@@ -1,8 +1,8 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
-import { Product } from '../../types';
-import { useCart } from '../../context/CartContext';
-import Button from '../ui/Button';
+import React from "react";
+import { Link } from "react-router-dom";
+import { Product } from "../../types";
+import { useCart } from "../../context/CartContext";
+import Button from "../ui/Button";
 
 interface ProductCardProps {
   product: Product;
@@ -17,7 +17,7 @@ const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
       name: product.name,
       price: product.price,
       imageUrl: product.imageUrl,
-      type: 'product'
+      type: "product",
     });
   };
 
@@ -45,9 +45,11 @@ const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
             : product.description}
         </p>
         <div className="flex items-center justify-between">
-          <span className="text-xl font-bold text-gray-900">${product.price.toFixed(2)}</span>
+          <span className="text-xl font-bold text-gray-900">
+            R${product.price.toFixed(2)}
+          </span>
           <Button onClick={handleAddToCart} variant="primary" size="sm">
-            Add to Cart
+            Adicionar ao Carrinho
           </Button>
         </div>
       </div>
