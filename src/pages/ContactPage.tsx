@@ -181,7 +181,7 @@ const ContactPage: React.FC = () => {
                   <div>
                     <h3 className="font-semibold mb-1">Nossa Localização</h3>
                     <p>
-                      123 Pet Avenue <br /> Petsville, CA 90210
+                      Rua dos Animais, 123 <br /> São Paulo, SP 01234-567
                     </p>
                   </div>
                 </div>
