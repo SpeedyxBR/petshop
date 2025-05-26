@@ -46,7 +46,7 @@ export const services: Service[] = [
     name: 'Limpeza Dental para Pets',
     description: 'Limpeza dental profissional para manter os dentes do seu pet saudáveis.',
     price: 85.00,
-    imageUrl: 'https://br.freepik.com/fotos-gratis/veterinario-verificando-a-saude-do-filhote_10823365.htm#fromView=search&page=1&position=0&uuid=fe22d049-1227-4b7d-81ab-1d80e4e5dfcb&query=Limpeza+Dental+para+Pets',
+    imageUrl: 'https://www.pexels.com/pt-br/foto/homem-animal-bicho-cachorro-6234622/',
     duration: '45 minutos'
   }
 ];
