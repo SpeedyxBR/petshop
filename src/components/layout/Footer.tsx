@@ -151,7 +151,7 @@ const Footer: React.FC = () => {
                   className="mr-2 text-teal-400 flex-shrink-0 mt-1"
                 />
                 <span className="text-gray-300">
-                  123 Avenida dos Pets, Petsville, CA 90210
+                    Rua dos Animais, 123 <br /> São Paulo, SP 01234-567
                 </span>
               </li>
               <li className="flex items-center">
