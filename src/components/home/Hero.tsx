@@ -22,11 +22,11 @@ const Hero: React.FC = () => {
                     <span className="block">SEU PET MERECE</span>
                     <span className="block text-primary">O MELHOR ❤️</span>
                   </h1>
-                  <p className="mt-3 text-base text-white sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0 drop-shadow-md">
+                  <p className="mt-3 text-base text-white sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0 drop-shadow-md bg-black/40 rounded px-3 py-2">
                     Banho, tosa, brinquedos, ração e mais em um só lugar.
                     Produtos e serviços com carinho para seu melhor amigo.
                   </p>
-                  <div className="mt-8 sm:flex sm:justify-center lg:justify-start space-y-4 sm:space-y-0 sm:space-x-4">
+                  <div className="mt-8 flex flex-col sm:flex-row sm:justify-center lg:justify-start space-y-4 sm:space-y-0 sm:space-x-4">
                     <Link to="/services">
                       <Button variant="primary" size="lg">
                         Agendar Agora

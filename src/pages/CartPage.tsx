@@ -54,10 +54,10 @@ const CartPage: React.FC = () => {
             </p>
             <div className="space-x-4">
               <Link to="/">
-                <Button variant="primary">Return to Home</Button>
+                <Button variant="primary">Voltar para o Início</Button>
               </Link>
               <Link to="/products">
-                <Button variant="outline">Continue Shopping</Button>
+                <Button variant="outline">Continuar Comprando</Button>
               </Link>
             </div>
           </div>
@@ -80,7 +80,7 @@ const CartPage: React.FC = () => {
               seu carrinho.
             </p>
             <Link to="/products">
-              <Button variant="primary">Browse Products</Button>
+              <Button variant="primary">Ver Produtos</Button>
             </Link>
           </div>
         </div>
@@ -158,7 +158,7 @@ const CartPage: React.FC = () => {
                           className="font-medium text-red-600 hover:text-red-500 flex items-center"
                         >
                           <Trash2 size={18} className="mr-1" />
-                          Remove
+                          Remover
                         </button>
                       </div>
                     </div>
@@ -169,14 +169,14 @@ const CartPage: React.FC = () => {
               <div className="p-6 border-t border-gray-200">
                 <div className="flex justify-between">
                   <Link to="/products">
-                    <Button variant="outline">Continue Shopping</Button>
+                    <Button variant="outline">Continuar Comprando</Button>
                   </Link>
                   <button
                     type="button"
                     onClick={() => clearCart()}
                     className="text-sm font-medium text-red-600 hover:text-red-500"
                   >
-                    Clear Cart
+                    Esvaziar Carrinho
                   </button>
                 </div>
               </div>
@@ -186,7 +186,7 @@ const CartPage: React.FC = () => {
           <div className="mt-8 lg:mt-0 lg:col-span-4">
             <div className="bg-white rounded-lg shadow-md p-6">
               <h2 className="text-lg font-medium text-gray-900 mb-4">
-                Order Summary
+                Resumo do Pedido
               </h2>
 
               <div className="space-y-4">
@@ -228,17 +228,17 @@ const CartPage: React.FC = () => {
               <div className="mt-6">
                 {isAuthenticated ? (
                   <Button onClick={handleCheckout} variant="primary" fullWidth>
-                    Checkout
+                    Finalizar Compra
                   </Button>
                 ) : (
                   <div>
                     <Link to="/login">
                       <Button variant="primary" fullWidth>
-                        Sign in to Checkout
+                        Entrar para Finalizar Compra
                       </Button>
                     </Link>
                     <p className="mt-2 text-sm text-gray-500 text-center">
-                      You need to be signed in to complete your purchase
+                      Você precisa estar logado para concluir sua compra
                     </p>
                   </div>
                 )}
